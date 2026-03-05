@@ -4,5 +4,25 @@
             <meta charset = "UTF-8">
             <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
             <link rel = "stylesheet" type = 'text/css' href = 'style.css'>
-            <title>LeBron's Fan Circle</title>
+            <script src = "scripts.js" defer></script>
+            <title>LeBron's Fan Circle - Forum</title>
     </head>
+    <body>
+        <header>
+                <h1 class = "home">LeBron James' Fan Forum</h1>
+                <nav aria-label = "Main Navigation">
+                        <a href = "index.html">Home</a>
+                        <a href = "forum.html">LeBron James' Fan Forum</a>
+                        <a href = "gallery.html">Photos and Accolades</a>
+                        <a href = "mailto:andrew.atwater@maine.edu">Contact</a>
+                </nav>
+        </header>
+        <main>
+                <h2>Make a Post about LeBron!</h2>
+                <input type = "text" id = "username" placeholder = "Username">
+                <textarea id = "message" placeholder = "Write something about LeBron..."></textarea>
+                <button id = "postBtn">Post</button>
+                <ul id = "posts"></ul>
+        </main>
+    </body>
+</html>
